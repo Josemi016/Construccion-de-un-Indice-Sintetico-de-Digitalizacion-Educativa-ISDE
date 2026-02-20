@@ -1,7 +1,7 @@
 # Construcción de un Índice Sintético de Digitalización Educativa (ISDE) mediante Análisis Exploratorio de Datos, Aprendizaje Automático no Supervisado y Analítica Visual
 
 **Autores:** Rocío Noriega Bustelo, Jose Miguel Martínez Martín  
-**TFM — UNIR (Máster en Big Data y Ciencia de Datos)**  
+**TFM — UNIR (Máster Universitario en Análisis y Visualización de Datos Masivos/ Visual Analytics and Big Data)**  
 **Año:** 2026
 
 ---
