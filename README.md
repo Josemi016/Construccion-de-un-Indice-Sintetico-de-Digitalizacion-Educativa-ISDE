@@ -35,8 +35,6 @@ Este repositorio incluye la **memoria** y **dos notebooks** (EDA y ML no supervi
 ├── notebooks/
 │   ├── 01_EDA_ISDE.ipynb
 │   └── 02_ML_NoSupervisado_ISDE.ipynb
-├── outputs/                 # (opcional) tablas/figuras exportadas
-├── requirements.txt         # (opcional) dependencias del entorno
 └── README.md
 ```
 
