@@ -33,12 +33,10 @@ Este repositorio incluye la **memoria** y **dos notebooks** (EDA y ML no supervi
 ├── docs/
 │   └── memoria_tfm.pdf
 ├── notebooks/
-│   ├── 01_EDA_ISDE.ipynb
-│   └── 02_ML_NoSupervisado_ISDE.ipynb
+│   ├── EDA_ISDE.ipynb
+│   └── CLUSTERING_ISDE.ipynb
 └── README.md
 ```
-
-> Ajusta los nombres de archivos/carpetas si difieren de tu estructura final.
 
 ---
 
@@ -80,8 +78,8 @@ jupyter lab
 ```
 
 2) Ejecutar notebooks en orden:
-- `notebooks/01_EDA_ISDE.ipynb`
-- `notebooks/02_ML_NoSupervisado_ISDE.ipynb`
+- `notebooks/EDA_ISDE.ipynb`
+- `notebooks/CLUSTERING_ISDE.ipynb`
 
 > Si los notebooks esperan rutas locales, revisa la celda inicial de configuración (p. ej., `BASE_PATH`, `PATHS`) y actualiza la ruta a tu entorno.
 
@@ -103,13 +101,13 @@ jupyter lab
 ## Cita
 Si utilizas este trabajo, por favor cita:
 
-```bibtex
-@mastersthesis{martinez2026isde,
-  title   = {Construcción de un Índice Sintético de Digitalización Educativa (ISDE) mediante Análisis Exploratorio de Datos, Aprendizaje Automático no Supervisado y Analítica Visual},
-  authors  = {Noriega Bustelo, Rocío and Martínez Martín, Jose Miguel},
-  school  = {UNIR},
-  year    = {2026}
-}
-```
+---
+## Consideraciones Éticas y Normativas
+El dataset utilizado ha sido sometido a un proceso de anonimización conforme a:
+- Reglamento (UE) 2016/679 (RGPD)
+- Ley Orgánica 3/2018 (LOPDGDD)
+
+No se incluyen datos personales identificativos ni información que permita la reidentificación directa o indirecta de los participantes.
+El cuestionario es de elaboración propia y está protegido por la Ley de Propiedad Intelectual (RDL 1/1996).
 
 ---
