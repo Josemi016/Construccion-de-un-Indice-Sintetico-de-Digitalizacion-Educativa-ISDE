@@ -26,16 +26,23 @@ El trabajo se alinea con las estrategias europeas de educación digital (Europea
 ---
 
 ## Estructura del repositorio
-Este repositorio incluye la **memoria** y **dos notebooks** (EDA y ML no supervisado):
+Este repositorio incluye la **memoria** , **dos notebooks** (EDA y ML no supervisado) y los scripts correspondientes:
 
 ```
 .
 ├── docs/
-│   └── memoria_tfm.pdf
+│   └── memoria.pdf
 ├── notebooks/
 │   ├── EDA_ISDE.ipynb
 │   └── CLUSTERING_ISDE.ipynb
 └── README.md
+├── scripts/
+│   └── transformar_eurostat.py
+│   └── filtra_talis.py
+│   └── tablas_diccionariosDESI.py
+│   └── clasificar_dimensiones_ISDE.py
+│   └── tablas_diccionariosDESI.py
+│   └── unificar_dimensiones.py
 ```
 
 ---
@@ -60,17 +67,6 @@ Los notebooks contienen la metodología, transformaciones y análisis necesarios
 - Python **3.10+**
 - Jupyter Notebook / JupyterLab
 
-### Instalación (si aplica)
-```bash
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-# Linux/Mac:
-# source .venv/bin/activate
-
-pip install -r requirements.txt
-```
-
 ### Ejecución
 1) Lanzar Jupyter:
 ```bash
@@ -81,7 +77,7 @@ jupyter lab
 - `notebooks/EDA_ISDE.ipynb`
 - `notebooks/CLUSTERING_ISDE.ipynb`
 
-> Si los notebooks esperan rutas locales, revisa la celda inicial de configuración (p. ej., `BASE_PATH`, `PATHS`) y actualiza la ruta a tu entorno.
+> Si los notebooks o scripts esperan rutas locales, revisa la celda inicial de configuración (p. ej., `BASE_PATH`, `PATHS`, `OUTPUTS`) y actualiza la ruta a tu entorno.
 
 ---
 
@@ -95,11 +91,6 @@ jupyter lab
 ## Licencia
 - **Código (notebooks/scripts):** MIT License (ver `LICENSE`)
 - **Memoria y contenido escrito (PDF, texto, figuras propias):** Creative Commons **CC BY-NC-ND 4.0**
-
----
-
-## Cita
-Si utilizas este trabajo, por favor cita:
 
 ---
 ## Consideraciones Éticas y Normativas
