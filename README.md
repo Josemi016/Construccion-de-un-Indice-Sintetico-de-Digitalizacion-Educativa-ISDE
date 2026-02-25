@@ -30,6 +30,10 @@ Este repositorio incluye la **memoria** , **dos notebooks** (EDA y ML no supervi
 
 ```
 .
+├── POWERBI/
+│   └── ISDE.pbix
+├── datasets/
+│   └── ISDE.csv
 ├── docs/
 │   └── memoria.pdf
 ├── notebooks/
