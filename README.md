@@ -69,10 +69,12 @@ Este repositorio incluye la **memoria** , **dos notebooks** (EDA y ML no supervi
 ## Cómo ejecutar
 ### Ejecución
 1) Ejecutar scripts en orden:
+
 **Para los datasets**
 - `scripts/eurostat.py`
 - `scripts/transformar_eurostat.py`
 - `scripts/talis.py`
+
 **Para la obtención de los .csv clasificados en dimensiones del ISDE**
 - `scripts/clasificar_dimensiones_ISDE.py`  
 
@@ -81,6 +83,7 @@ Este repositorio incluye la **memoria** , **dos notebooks** (EDA y ML no supervi
 - `notebooks/CLUSTERING_ISDE_TFM.ipynb`
 > Si los notebooks o scripts esperan rutas locales, revisa la celda inicial de configuración (p. ej., `BASE_PATH`, `PATHS`, `OUTPUTS`) y actualiza la ruta a tu entorno.
 > Los notebooks contienen la metodología, transformaciones y análisis necesarios para reproducir el trabajo.
+> Los .csv de estudios como UNESCO y eurydice se obtienen directamente desde las fuentes
 ---
 
 ## Limitaciones
