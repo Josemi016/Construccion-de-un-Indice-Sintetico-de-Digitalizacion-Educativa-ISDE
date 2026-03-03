@@ -41,20 +41,20 @@ Este repositorio incluye la **memoria** , **dos notebooks** (EDA y ML no supervi
 │   └── CLUSTERING_ISDE.ipynb
 └── README.md
 ├── scripts/
+│   └── eurostat.py
 │   └── transformar_eurostat.py
-│   └── filtra_talis.py
-│   └── tablas_diccionariosDESI.py
+│   └── talis.py
 │   └── clasificar_dimensiones_ISDE.py
-│   └── tablas_diccionariosDESI.py
-│   └── unificar_dimensiones.py
 ```
 
 ---
 
 ## Datos
-Por motivos de licencia y redistribución, este repositorio **no incluye** los datasets originales (p. ej., TALIS/OECD u otras fuentes).  
-Los notebooks contienen la metodología, transformaciones y análisis necesarios para reproducir el trabajo **si se dispone de los datos por vías legítimas**.
-
+**Fuentes:**
+- TALIS: https://www.oecd.org/en/data/datasets/talis-2024-database.html
+- UNESCO: https://databrowser.uis.unesco.org/browser
+- EUROSTAT: https://ec.europa.eu/eurostat/web/main/data/database
+- EURYDICE: https://eurydice.eacea.ec.europa.eu/data-and-visuals/system-level-indicators  
 ---
 
 ## Metodología (alto nivel)
@@ -67,22 +67,20 @@ Los notebooks contienen la metodología, transformaciones y análisis necesarios
 ---
 
 ## Cómo ejecutar
-### Requisitos
-- Python **3.10+**
-- Jupyter Notebook / JupyterLab
-
 ### Ejecución
-1) Lanzar Jupyter:
-```bash
-jupyter lab
-```
+1) Ejecutar scripts en orden:
+**Para los datasets**
+- `scripts/eurostat.py`
+- `scripts/transformar_eurostat.py`
+- `scripts/talis.py`
+**Para la obtención de los .csv clasificados en dimensiones del ISDE**
+- `scripts/clasificar_dimensiones_ISDE.py`  
 
-2) Ejecutar notebooks en orden:
+2) Ejecutar scripts en orden:
 - `notebooks/EDA_ISDE.ipynb`
-- `notebooks/CLUSTERING_ISDE.ipynb`
-
+- `notebooks/CLUSTERING_ISDE_TFM.ipynb`
 > Si los notebooks o scripts esperan rutas locales, revisa la celda inicial de configuración (p. ej., `BASE_PATH`, `PATHS`, `OUTPUTS`) y actualiza la ruta a tu entorno.
-
+> Los notebooks contienen la metodología, transformaciones y análisis necesarios para reproducir el trabajo.
 ---
 
 ## Limitaciones
